@@ -3,7 +3,7 @@ function Person(name, age) {
 	this.name = name;
 	this.age = age;
 	this.greet = ()=>{
-		console.log(`Hello, my name is ${name}, I am ${age} years old.`);
+		return `Hello, my name is ${name}, I am ${age} years old.`;
 	}
 }
 
@@ -12,7 +12,7 @@ function Employee(name, age, jobTitle) {
 	this.jobTitle = jobTitle;
 
 	this.jobGreet = ()=>{
-		console.log(`Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}.`);
+		return `Hello, my name is ${name}, I am ${age} years old, and my job title is ${jobTitle}.`;
 	}
 	
 }
